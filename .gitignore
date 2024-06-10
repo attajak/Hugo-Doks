@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 public
-resource
+resources
 .hugo_build.lock
 assets/jsconfig.json
