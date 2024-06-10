@@ -132,3 +132,4 @@ dist
 public
 resource
 .hugo_build.lock
+assets/jsconfig.json
