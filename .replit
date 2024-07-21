@@ -1,13 +1,13 @@
 run = "npm run dev"
 entrypoint = "README.md"
-modules = ["nodejs-20:v8-20230920-bd784b9"]
-hidden = [".config", "package-lock.json"]
+modules = ["nodejs-20", "go-1.21"]
+hidden = [".config"]
 
 [gitHubImport]
-requiredFiles = [".replit", "replit.nix", "package.json", "package-lock.json"]
+requiredFiles = [".replit", "replit.nix", "go.mod", "go.sum", "package.json", "package-lock.json"]
 
 [nix]
-channel = "stable-23_11"
+channel = "stable-24_05"
 
 [unitTest]
 language = "nodejs"

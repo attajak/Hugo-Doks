@@ -129,7 +129,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-public
-resources
+public/
+resources/
 .hugo_build.lock
+hugo_stats.json
 assets/jsconfig.json
